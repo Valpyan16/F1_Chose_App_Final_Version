@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:ignore="ExtraText"
+    android:background="#ADD8E6"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pick a team, but make your choice wisely"
+        android:textSize="40.sp"
+        android:layout_marginTop="30.sp"
+        android:layout_marginHorizontal="10.sp"
+        android:textColor="@color/white"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red Bull"
+        android:id="@+id/redBullButton"
+        android:textColor="#00008B"
+        android:background="@drawable/redbull"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scuderia Ferrari"
+        android:id="@+id/scuderiaFerrariButton"
+        android:textColor="#FF0000"
+        android:background="@drawable/redbull"
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercedes"
+        android:id="@+id/mercedesButton"
+        android:textColor="#40E0D0"
+        android:background="@drawable/redbull"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="McLaren"
+        android:id="@+id/mclarenButton"
+        android:textColor="#FFA500"
+        android:background="@drawable/redbull"
+
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Williams"
+        android:id="@+id/williamsButton"
+        android:textColor="#FF0000FF"
+        android:background="@drawable/redbull"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aston Martin"
+        android:id="@+id/astonMartinButton"
+        android:textColor="#8FBC8F"
+        android:background="@drawable/redbull"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alpine"
+        android:id="@+id/alpineButton"
+        android:textColor="#E75480"
+        android:background="@drawable/redbull"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visa Cash App Racing Bulls"
+        android:id="@+id/racingBullsButton"
+        android:textColor="#FF0000FF"
+        android:background="@drawable/redbull"
+
+        />
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sauber"
+        android:id="@+id/sauberButton"
+        android:textColor="#32CD32"
+        android:background="@drawable/redbull"
+
+        />
+
+    <Button
+        android:padding="3.sp"
+        android:layout_margin="7.sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haas"
+        android:id="@+id/haasButton"
+        android:textColor="#FF0000"
+        android:background="@drawable/redbull"
+
+
+        />
+
+
+
+</LinearLayout>
